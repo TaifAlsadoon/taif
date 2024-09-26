@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5F5B5E882CA5A1CA0066BCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5B5E6F2CA5A1C80066BCFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5B5E762CA5A1C80066BCFF;
+			remoteInfo = taif;
+		};
+		5F5B5E922CA5A1CA0066BCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5B5E6F2CA5A1C80066BCFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5B5E762CA5A1C80066BCFF;
+			remoteInfo = taif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F5B5E772CA5A1C80066BCFF /* taif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5B5E872CA5A1CA0066BCFF /* taifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5B5E912CA5A1CA0066BCFF /* taifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5F5B5E792CA5A1C80066BCFF /* taif */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = taif;
+			sourceTree = "<group>";
+		};
+		5F5B5E8A2CA5A1CA0066BCFF /* taifTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = taifTests;
+			sourceTree = "<group>";
+		};
+		5F5B5E942CA5A1CA0066BCFF /* taifUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = taifUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F5B5E742CA5A1C80066BCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5B5E842CA5A1CA0066BCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5B5E8E2CA5A1CA0066BCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5B5E6E2CA5A1C80066BCFF = {
+			isa = PBXGroup;
+			children = (
+				5F5B5E792CA5A1C80066BCFF /* taif */,
+				5F5B5E8A2CA5A1CA0066BCFF /* taifTests */,
+				5F5B5E942CA5A1CA0066BCFF /* taifUITests */,
+				5F5B5E782CA5A1C80066BCFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F5B5E782CA5A1C80066BCFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5B5E772CA5A1C80066BCFF /* taif.app */,
+				5F5B5E872CA5A1CA0066BCFF /* taifTests.xctest */,
+				5F5B5E912CA5A1CA0066BCFF /* taifUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5B5E762CA5A1C80066BCFF /* taif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5B5E9B2CA5A1CA0066BCFF /* Build configuration list for PBXNativeTarget "taif" */;
+			buildPhases = (
+				5F5B5E732CA5A1C80066BCFF /* Sources */,
+				5F5B5E742CA5A1C80066BCFF /* Frameworks */,
+				5F5B5E752CA5A1C80066BCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5F5B5E792CA5A1C80066BCFF /* taif */,
+			);
+			name = taif;
+			packageProductDependencies = (
+			);
+			productName = taif;
+			productReference = 5F5B5E772CA5A1C80066BCFF /* taif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F5B5E862CA5A1CA0066BCFF /* taifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5B5E9E2CA5A1CA0066BCFF /* Build configuration list for PBXNativeTarget "taifTests" */;
+			buildPhases = (
+				5F5B5E832CA5A1CA0066BCFF /* Sources */,
+				5F5B5E842CA5A1CA0066BCFF /* Frameworks */,
+				5F5B5E852CA5A1CA0066BCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5B5E892CA5A1CA0066BCFF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5F5B5E8A2CA5A1CA0066BCFF /* taifTests */,
+			);
+			name = taifTests;
+			packageProductDependencies = (
+			);
+			productName = taifTests;
+			productReference = 5F5B5E872CA5A1CA0066BCFF /* taifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F5B5E902CA5A1CA0066BCFF /* taifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5B5EA12CA5A1CA0066BCFF /* Build configuration list for PBXNativeTarget "taifUITests" */;
+			buildPhases = (
+				5F5B5E8D2CA5A1CA0066BCFF /* Sources */,
+				5F5B5E8E2CA5A1CA0066BCFF /* Frameworks */,
+				5F5B5E8F2CA5A1CA0066BCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5B5E932CA5A1CA0066BCFF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5F5B5E942CA5A1CA0066BCFF /* taifUITests */,
+			);
+			name = taifUITests;
+			packageProductDependencies = (
+			);
+			productName = taifUITests;
+			productReference = 5F5B5E912CA5A1CA0066BCFF /* taifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F5B5E6F2CA5A1C80066BCFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5F5B5E762CA5A1C80066BCFF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5F5B5E862CA5A1CA0066BCFF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5F5B5E762CA5A1C80066BCFF;
+					};
+					5F5B5E902CA5A1CA0066BCFF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5F5B5E762CA5A1C80066BCFF;
+					};
+				};
+			};
+			buildConfigurationList = 5F5B5E722CA5A1C80066BCFF /* Build configuration list for PBXProject "taif" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F5B5E6E2CA5A1C80066BCFF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5F5B5E782CA5A1C80066BCFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F5B5E762CA5A1C80066BCFF /* taif */,
+				5F5B5E862CA5A1CA0066BCFF /* taifTests */,
+				5F5B5E902CA5A1CA0066BCFF /* taifUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F5B5E752CA5A1C80066BCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5B5E852CA5A1CA0066BCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5B5E8F2CA5A1CA0066BCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5B5E732CA5A1C80066BCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5B5E832CA5A1CA0066BCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5B5E8D2CA5A1CA0066BCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F5B5E892CA5A1CA0066BCFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5B5E762CA5A1C80066BCFF /* taif */;
+			targetProxy = 5F5B5E882CA5A1CA0066BCFF /* PBXContainerItemProxy */;
+		};
+		5F5B5E932CA5A1CA0066BCFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5B5E762CA5A1C80066BCFF /* taif */;
+			targetProxy = 5F5B5E922CA5A1CA0066BCFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F5B5E992CA5A1CA0066BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F5B5E9A2CA5A1CA0066BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F5B5E9C2CA5A1CA0066BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"taif/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taif.taif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F5B5E9D2CA5A1CA0066BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"taif/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taif.taif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F5B5E9F2CA5A1CA0066BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taif.taifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taif.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/taif";
+			};
+			name = Debug;
+		};
+		5F5B5EA02CA5A1CA0066BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taif.taifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taif.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/taif";
+			};
+			name = Release;
+		};
+		5F5B5EA22CA5A1CA0066BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taif.taifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = taif;
+			};
+			name = Debug;
+		};
+		5F5B5EA32CA5A1CA0066BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taif.taifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = taif;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F5B5E722CA5A1C80066BCFF /* Build configuration list for PBXProject "taif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5B5E992CA5A1CA0066BCFF /* Debug */,
+				5F5B5E9A2CA5A1CA0066BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5B5E9B2CA5A1CA0066BCFF /* Build configuration list for PBXNativeTarget "taif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5B5E9C2CA5A1CA0066BCFF /* Debug */,
+				5F5B5E9D2CA5A1CA0066BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5B5E9E2CA5A1CA0066BCFF /* Build configuration list for PBXNativeTarget "taifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5B5E9F2CA5A1CA0066BCFF /* Debug */,
+				5F5B5EA02CA5A1CA0066BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5B5EA12CA5A1CA0066BCFF /* Build configuration list for PBXNativeTarget "taifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5B5EA22CA5A1CA0066BCFF /* Debug */,
+				5F5B5EA32CA5A1CA0066BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F5B5E6F2CA5A1C80066BCFF /* Project object */;
+}
